@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: cornflowerblue;
+  color: white;
+  padding: 10px;
+}
+
+table {
+  margin: 10px;
+  position: relative;
+  top: 30px;
+  border-radius: .5em;
+  border-collapse: collapse;
+}
+
+tr:nth-child(2) {
+  background-color: rgb(233, 233, 233);
+}
+
+td {
+  padding: 10px;
+}
+
+thead {
+  border-bottom: solid 2px cornflowerblue;
+}
+
+.addAuthorBtn {
+  background-color: cornflowerblue;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+  top: 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: .5em;
+  font-weight: bold;
+}
+
+button, .submitBtn {
+  background-color: cornflowerblue;
+  margin: 10px;
+  padding: 10px;
+  border-radius: .5em;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+label {
+  margin: 10px;
+}
+
+.inputBox {
+  margin: 10px;
+  padding: 10px;
+  border-radius: .5em;
+  border: solid 1px lightgray;
+}
+
+h2 {
+  margin: 10px
+}
